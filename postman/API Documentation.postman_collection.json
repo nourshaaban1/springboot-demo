@@ -1,0 +1,33 @@
+{
+	"info": {
+		"_postman_id": "21cc1deb-ed76-4d4a-8209-4616e8d065f8",
+		"name": "API Documentation",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37287122",
+		"_collection_link": "https://www.postman.com/nour-shaban/workspace/spring-boot/collection/37287122-21cc1deb-ed76-4d4a-8209-4616e8d065f8?action=share&source=collection_link&creator=37287122"
+	},
+	"item": [
+		{
+			"name": "Resources",
+			"item": [
+				{
+					"name": "Get Hello",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/hello",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"hello"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
